@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E5F60E5-E828-4CB0-BC5D-80D41F65A70A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinFormAssignments</RootNamespace>
+    <AssemblyName>WinFormAssignments</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ex_2_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_4.Designer.cs">
+      <DependentUpon>Ex_2_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_5.Designer.cs">
+      <DependentUpon>Ex_2_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex1_4_CatchARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex1_4_CatchARabbit.Designer.cs">
+      <DependentUpon>Ex1_4_CatchARabbit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex1_5_KillARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex1_5_KillARabbit.Designer.cs">
+      <DependentUpon>Ex1_5_KillARabbit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex1_6_CatchAFish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex1_6_CatchAFish.Designer.cs">
+      <DependentUpon>Ex1_6_CatchAFish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_1_7_CatchAGenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_1_7_CatchAGenie.Designer.cs">
+      <DependentUpon>Ex_1_7_CatchAGenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_10.Designer.cs">
+      <DependentUpon>Ex_2_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_6.Designer.cs">
+      <DependentUpon>Ex_2_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_7.Designer.cs">
+      <DependentUpon>Ex_2_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_8.Designer.cs">
+      <DependentUpon>Ex_2_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_2_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex_2_9.Designer.cs">
+      <DependentUpon>Ex_2_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ex1_4_CatchARabbit.resx">
+      <DependentUpon>Ex1_4_CatchARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex1_5_KillARabbit.resx">
+      <DependentUpon>Ex1_5_KillARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex1_6_CatchAFish.resx">
+      <DependentUpon>Ex1_6_CatchAFish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_1_7_CatchAGenie.resx">
+      <DependentUpon>Ex_1_7_CatchAGenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_10.resx">
+      <DependentUpon>Ex_2_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_4.resx">
+      <DependentUpon>Ex_2_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_5.resx">
+      <DependentUpon>Ex_2_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_6.resx">
+      <DependentUpon>Ex_2_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_7.resx">
+      <DependentUpon>Ex_2_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_8.resx">
+      <DependentUpon>Ex_2_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex_2_9.resx">
+      <DependentUpon>Ex_2_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\bark.wav" />
+    <Content Include="img\BFLY1.BMP" />
+    <Content Include="img\BFLY2.BMP" />
+    <Content Include="img\BigFish.jpg" />
+    <Content Include="img\bone.jpg" />
+    <Content Include="img\BOOKS05.ico" />
+    <Content Include="img\Dog.gif" />
+    <Content Include="img\dog.jpg" />
+    <Content Include="img\fish2.bmp" />
+    <Content Include="img\Genie.gif" />
+    <Content Include="img\happyRabbit.GIF" />
+    <Content Include="img\H_POINT.CUR" />
+    <Content Include="img\ISS-NUS logo.jpg" />
+    <Content Include="img\magic-lamp.gif" />
+    <Content Include="img\MAIL05A.ICO" />
+    <Content Include="img\NEW.BMP" />
+    <Content Include="img\NUSLogo.bmp" />
+    <Content Include="img\OPEN.BMP" />
+    <Content Include="img\PEN04.ico" />
+    <Content Include="img\PREVIEW.BMP" />
+    <Content Include="img\PRINT.BMP" />
+    <Content Include="img\rabbit.gif" />
+    <Content Include="img\sadRabbit.GIF" />
+    <Content Include="img\SAVE.BMP" />
+    <Content Include="img\s_fish69.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
